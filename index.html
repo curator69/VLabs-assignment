@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chemical Supplies Table</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="table-container">
+      <h2>Chemical Supplies</h2>
+      <table class="table table-striped" id="chemicalTable">
+        <thead>
+          <tr>
+            <th onclick="sortTable(0)">ID</th>
+            <th onclick="sortTable(1)">Chemical Name</th>
+            <th onclick="sortTable(2)">Vendor</th>
+            <th onclick="sortTable(3)">Density (g/m³)</th>
+            <th onclick="sortTable(4)">Viscosity (m²/s)</th>
+            <th onclick="sortTable(5)">Packaging</th>
+            <th onclick="sortTable(6)">Pack Size</th>
+            <th onclick="sortTable(7)">Unit</th>
+            <th onclick="sortTable(8)">Quantity</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
